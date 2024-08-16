@@ -60,6 +60,6 @@ Then I created a condition where I checked total number of the orders then I fil
 Then Assert these in the end to the total number of orders and also Asserted the type of ESIM with specific package "merhaba-7days-1gb". 
 
 ##Further Improvements
-
+The Getting of Token from the Airalo can also be automated but in my opinion the token is valid for one year, so I choose not to automate getting it everytime since it would be redundant to do so.
 There can be added further Assertions according to the requirements and needs of the test execution. I have added hardcoded Basic assertions for the order details which can easily be changed to take values from the Order response which we can get after creating a post request for order and then Assert data according to its values. I have not added any sort of extensive error handling which in my opinion should be there and can be added later.
 I also wanted to use try catch for some of the locators for 1st task which could have made the test more stable.
